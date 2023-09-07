@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Medi Assist</string>
+    <!-- signup_page strings -->
+    <string name="name">Full Name<font color='#FF0000'>*</font></string>
+    <string name="phone">Phone Number<font color='#FF0000'>*</font></string>
+    <string name="email">Email<font color='#FF0000'>*</font></string>
+    <string name="pwd">Password<font color='#FF0000'>*</font></string>
+    <string name="retype">Retype Password<font color='#FF0000'>*</font></string>
+
+    <!-- signin_page strings -->
+    <string name="sign_in_to_your_account_string">Sign in to your account</string>
+    <string name="mandatory">*</string>
+    <string name="email_string">Email</string>
+    <string name="sign_in_string">Sign In</string>
+    <string name="password_string">Password</string>
+
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="clinic_list_fragment_label">Clinic List Fragment</string>
+    <string name="welcome_fragment_label">Welcome Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome_title">Welcome to MediAssist </string>
+    <string name="welcome_descr">Best appointment sheduling app </string>
+    <string name="signup">Sign Up </string>
+    <string name="signin">Sign In</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_clinic">ClinicActivity</string>
+
+
+    <string name="empty_clinic">No clinics found! Try to add by clicking \n on plus button at the top.</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="super_admin_dashboard_fragment_label">Super Admin Dashboard Fragment</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string-array name="programming_languages">
+        <item>Clinic 1</item>
+        <item>Clinic 2</item>
+        <item>Clinic 3</item>
+        <item>Clinic 4</item>
+    </string-array>
+
+    <string-array name="doctors_specializarions">
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Dermatologist</item>
+        <item>Neurologist</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="title_activity_schedule_appointment">ScheduleAppointment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="title_activity_search_doctors_list">SearchDoctorsListActivity</string>
+    <string name="title_activity_categories_by_doctor">CategoriesByDoctorActivity</string>
+    <string name="title_activity_scheduled_appointment_for_doctor_main">
+        ScheduledAppointmentForDoctorMainActivity
+    </string>
+    <string name="title_activity_accept_appointment_clinic_admin_specific">
+        AcceptAppointmentClinicAdminSpecificActivity
+    </string>
+    <string name="title_activity_deny_apoointment_clinic_admin_specific_main">
+        DenyApoointmentClinicAdminSpecificMainActivity
+    </string>
+    <string name="title_activity_accept_appointment_admin_main">AcceptAppointmentAdminMainActivity
+    </string>
+    <string name="title_activity_accept_deny_appointment_admin_main">
+        AcceptDenyAppointmentAdminMainActivity
+    </string>
+    <string name="title_activity_deny_appointment_admin_specific_main">
+        DenyAppointmentAdminSpecificMainActivity
+    </string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+
+    <!-- signin_page colors -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="_bg__signin_page_color">#FFFFFF</color>
+    <color name="rectangle_12_color">#141414</color>
+    <color name="email__color">#BABABA</color>
+    <color name="email_color">#303843</color>
+    <color name="rectangle_11_color">#A9CACF</color>
+    <color name="rectangle_stroke">#A9CACF</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF0D0D0D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#FF408E9B</color>
+    <color name="disabled_primary_color">#FFA9CACF</color>
+    <color name="disabled_color">#FF1D1D1D</color>
+    <color name="hint_text_color">#FF303843</color>
+    <color name="label_text_color">#FFBABABA</color>
+    <color name="error_text_color">#FFAD1314</color>
+    <color name="asterisk_error_color">#FFE50000</color>
+    <color name="secondary_error_color">#FF250E13</color>
+    <color name="search_box_color">#FF222121</color>
+    <color name="success">#3FB664</color>
+
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="gray">#888</color>
+    <color name="dark_gray">#FF252525</color>
+    <color name="blue">#0000FF</color>
+    <color name="calendarblack">#FF000000</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_clinic"
+    app:startDestination="@id/ClinicListFragment">
+
+    <fragment
+        android:id="@+id/ClinicListFragment"
+        android:name="com.example.mediassist.clinic.ClinicListFragment"
+        android:label="@string/clinic_list_fragment_label"
+        tools:layout="@layout/clinic_list">
+
+        <action
+            android:id="@+id/action_ClinicListFragment_to_AddClinicFragment"
+            app:destination="@id/AddClinicFragment" />
+
+        <action
+            android:id="@+id/action_ClinicListFragment_to_DashboardFragmenr"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddClinicFragment"
+        android:name="com.example.mediassist.clinic.AddClinicFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/add_clinic">
+        <action
+            android:id="@+id/action_AddClinicFragment_to_ClinicListFragment"
+            app:destination="@id/ClinicListFragment" />
+
+    </fragment>
+</navigation>

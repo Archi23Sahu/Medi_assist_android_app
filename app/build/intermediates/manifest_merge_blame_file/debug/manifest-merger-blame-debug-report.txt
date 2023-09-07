@@ -1,0 +1,755 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mediassist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_GPS" />
+15-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:9:5-69
+15-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:9:22-66
+16    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+16-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:10:5-74
+16-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:10:22-71
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:11:5-76
+17-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:11:22-73
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:12:5-230:19
+34        android:allowBackup="true"
+34-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:13:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.8.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\102215101d21fdb02f0f27bbfd4ebd5d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:14:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:15:9-54
+40        android:icon="@drawable/logo"
+40-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:16:9-38
+41        android:label="@string/app_name"
+41-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:17:9-41
+42        android:roundIcon="@drawable/logo"
+42-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:18:9-43
+43        android:supportsRtl="true"
+43-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:19:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.MediAssist" >
+45-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:20:9-48
+46        <activity
+46-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:22:9-30:20
+47            android:name="com.example.mediassist.denyappointmentadmin.DenyAppointmentAdminSpecificMainActivity"
+47-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:23:13-90
+48            android:exported="false"
+48-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:24:13-37
+49            android:label="@string/title_activity_deny_appointment_admin_specific_main"
+49-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:25:13-88
+50            android:theme="@style/Theme.MediAssist.NoActionBar" >
+50-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:26:13-64
+51            <meta-data
+51-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+52                android:name="android.app.lib_name"
+52-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+53                android:value="" />
+53-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+54        </activity>
+55        <activity
+55-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:31:9-39:20
+56            android:name="com.example.mediassist.acceptappointmentadmin.AcceptAppointmentAdminMainActivity"
+56-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:32:13-86
+57            android:exported="false"
+57-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:33:13-37
+58            android:label="@string/title_activity_accept_deny_appointment_admin_main"
+58-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:34:13-86
+59            android:theme="@style/Theme.MediAssist.NoActionBar" >
+59-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:35:13-64
+60            <meta-data
+60-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+61                android:name="android.app.lib_name"
+61-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+62                android:value="" />
+62-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+63        </activity>
+64        <activity
+64-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:40:9-48:20
+65            android:name="com.example.mediassist.acceptdenyappointmentadmin.AcceptDenyAppointmentAdminMainActivity"
+65-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:41:13-94
+66            android:exported="false"
+66-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:42:13-37
+67            android:label="@string/title_activity_accept_appointment_admin_main"
+67-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:43:13-81
+68            android:theme="@style/Theme.MediAssist.NoActionBar" >
+68-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:44:13-64
+69            <meta-data
+69-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+70                android:name="android.app.lib_name"
+70-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+71                android:value="" />
+71-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+72        </activity>
+73        <activity
+73-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:49:9-57:20
+74            android:name="com.example.mediassist.denyappointmentclinicadmin.DenyAppointmentClinicAdminSpecificMainActivity"
+74-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:50:13-102
+75            android:exported="false"
+75-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:51:13-37
+76            android:label="DenyAppointmentClinicAdminSpecificMainActivity"
+76-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:52:13-75
+77            android:theme="@style/Theme.MediAssist.NoActionBar" >
+77-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:53:13-64
+78            <meta-data
+78-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+79                android:name="android.app.lib_name"
+79-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+80                android:value="" />
+80-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+81        </activity>
+82        <activity
+82-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:58:9-66:20
+83            android:name="com.example.mediassist.acceptappointmentclinicadmin.AcceptAppointmentClinicAdminSpecificActivity"
+83-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:59:13-102
+84            android:exported="false"
+84-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:60:13-37
+85            android:label="AcceptAppointmentClinicAdminSpecificActivity"
+85-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:61:13-73
+86            android:theme="@style/Theme.MediAssist.NoActionBar" >
+86-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:62:13-64
+87            <meta-data
+87-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+88                android:name="android.app.lib_name"
+88-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+89                android:value="" />
+89-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+90        </activity>
+91        <activity
+91-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:67:9-75:20
+92            android:name="com.example.mediassist.scheduleappointmentdoctor.ScheduledAppointmentForDoctorMainActivity"
+92-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:68:13-96
+93            android:exported="false"
+93-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:69:13-37
+94            android:label="@string/title_activity_scheduled_appointment_for_doctor_main"
+94-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:70:13-89
+95            android:theme="@style/Theme.MediAssist.NoActionBar" >
+95-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:71:13-64
+96            <meta-data
+96-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+97                android:name="android.app.lib_name"
+97-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+98                android:value="" />
+98-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+99        </activity>
+100        <activity
+100-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:76:9-84:20
+101            android:name="com.example.mediassist.category.CategoriesByDoctorActivity"
+101-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:77:13-64
+102            android:exported="false"
+102-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:78:13-37
+103            android:label="@string/title_activity_categories_by_doctor"
+103-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:79:13-72
+104            android:theme="@style/Theme.MediAssist.NoActionBar" >
+104-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:80:13-64
+105            <meta-data
+105-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+106                android:name="android.app.lib_name"
+106-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+107                android:value="" />
+107-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+108        </activity>
+109        <activity
+109-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:85:9-93:20
+110            android:name="com.example.mediassist.acceptdenyappointment.AcceptDenyAppointmentActivity"
+110-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:86:13-80
+111            android:exported="false"
+111-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:87:13-37
+112            android:label="Accept_Deny_AppointmentActivity"
+112-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:88:13-60
+113            android:theme="@style/Theme.MediAssist.NoActionBar" >
+113-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:89:13-64
+114            <meta-data
+114-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+115                android:name="android.app.lib_name"
+115-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+116                android:value="" />
+116-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+117        </activity>
+118        <activity
+118-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:94:9-102:20
+119            android:name="com.example.mediassist.appointmentdenystatus.DenyAppointmentMainActivity"
+119-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:95:13-78
+120            android:exported="false"
+120-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:96:13-37
+121            android:label="Deny_Appointment_MainActivity"
+121-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:97:13-58
+122            android:theme="@style/Theme.MediAssist.NoActionBar" >
+122-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:98:13-64
+123            <meta-data
+123-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+124                android:name="android.app.lib_name"
+124-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+125                android:value="" />
+125-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+126        </activity>
+127        <activity
+127-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:103:9-111:20
+128            android:name="com.example.mediassist.appointmentacceptstatus.AcceptAppointmentMainActivity"
+128-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:104:13-82
+129            android:exported="false"
+129-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:105:13-37
+130            android:label="Accept_Appointment_MainActivity"
+130-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:106:13-60
+131            android:theme="@style/Theme.MediAssist.NoActionBar" >
+131-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:107:13-64
+132            <meta-data
+132-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+133                android:name="android.app.lib_name"
+133-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+134                android:value="" />
+134-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+135        </activity>
+136        <activity
+136-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:112:9-120:20
+137            android:name="com.example.mediassist.appointmentstatus.AppointmentListActivity"
+137-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:113:13-70
+138            android:exported="false"
+138-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:114:13-37
+139            android:label="appointment_list"
+139-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:115:13-45
+140            android:theme="@style/Theme.MediAssist.NoActionBar" >
+140-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:116:13-64
+141            <meta-data
+141-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+142                android:name="android.app.lib_name"
+142-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+143                android:value="" />
+143-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+144        </activity>
+145        <activity
+145-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:121:9-129:20
+146            android:name="com.example.mediassist.SearchDoctors.SearchDoctorsListActivity"
+146-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:122:13-68
+147            android:exported="false"
+147-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:123:13-37
+148            android:label="@string/title_activity_search_doctors_list"
+148-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:124:13-71
+149            android:theme="@style/Theme.MediAssist.NoActionBar" >
+149-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:125:13-64
+150            <meta-data
+150-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+151                android:name="android.app.lib_name"
+151-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+152                android:value="" />
+152-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+153        </activity>
+154        <activity
+154-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:130:9-138:20
+155            android:name="com.example.mediassist.appointment.ScheduleAppointmentActivity"
+155-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:131:13-68
+156            android:exported="false"
+156-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:132:13-37
+157            android:label="@string/title_activity_schedule_appointment"
+157-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:133:13-72
+158            android:theme="@style/Theme.MediAssist.NoActionBar" >
+158-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:134:13-64
+159            <meta-data
+159-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+160                android:name="android.app.lib_name"
+160-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+161                android:value="" />
+161-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+162        </activity>
+163
+164        <meta-data
+164-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:140:9-142:53
+165            android:name="com.google.android.actions"
+165-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:141:13-54
+166            android:resource="@xml/dropdown_item" />
+166-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:142:13-50
+167
+168        <activity
+168-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:144:9-152:20
+169            android:name="com.example.mediassist.resetpassword.ForgotPasswordActivity"
+169-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:145:13-65
+170            android:exported="false"
+170-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:146:13-37
+171            android:label="forgot_password"
+171-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:147:13-44
+172            android:theme="@style/Theme.MediAssist.NoActionBar" >
+172-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:148:13-64
+173            <meta-data
+173-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+174                android:name="android.app.lib_name"
+174-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+175                android:value="" />
+175-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+176        </activity>
+177        <activity
+177-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:153:9-161:20
+178            android:name="com.example.mediassist.login.LoginActivity"
+178-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:154:13-48
+179            android:exported="false"
+179-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:155:13-37
+180            android:label="LoginActivity"
+180-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:156:13-42
+181            android:theme="@style/Theme.MediAssist.NoActionBar" >
+181-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:157:13-64
+182            <meta-data
+182-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+183                android:name="android.app.lib_name"
+183-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+184                android:value="" />
+184-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+185        </activity>
+186        <activity
+186-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:162:9-170:20
+187            android:name="com.example.mediassist.dashboard.DashboardActivity"
+187-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:163:13-56
+188            android:exported="false"
+188-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:164:13-37
+189            android:label="@string/title_activity_dashboard"
+189-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:165:13-61
+190            android:theme="@style/Theme.MediAssist.NoActionBar" >
+190-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:166:13-64
+191            <meta-data
+191-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+192                android:name="android.app.lib_name"
+192-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+193                android:value="" />
+193-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+194        </activity>
+195        <activity
+195-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:171:9-179:20
+196            android:name="com.example.mediassist.clinicadmin.ClinicAdminActivity"
+196-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:172:13-60
+197            android:exported="false"
+197-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:173:13-37
+198            android:label="ClinicAdminActivity"
+198-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:174:13-48
+199            android:theme="@style/Theme.MediAssist.NoActionBar" >
+199-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:175:13-64
+200            <meta-data
+200-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+201                android:name="android.app.lib_name"
+201-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+202                android:value="" />
+202-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+203        </activity>
+204        <activity
+204-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:180:9-188:20
+205            android:name="com.example.mediassist.category.CategoryActivity"
+205-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:181:13-54
+206            android:exported="false"
+206-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:182:13-37
+207            android:label="CategoryActivity"
+207-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:183:13-45
+208            android:theme="@style/Theme.MediAssist.NoActionBar" >
+208-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:184:13-64
+209            <meta-data
+209-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+210                android:name="android.app.lib_name"
+210-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+211                android:value="" />
+211-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+212        </activity>
+213        <activity
+213-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:189:9-197:20
+214            android:name="com.example.mediassist.doctor.DoctorActivity"
+214-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:190:13-50
+215            android:exported="false"
+215-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:191:13-37
+216            android:label="DoctorActivity"
+216-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:192:13-43
+217            android:theme="@style/Theme.MediAssist.NoActionBar" >
+217-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:193:13-64
+218            <meta-data
+218-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+219                android:name="android.app.lib_name"
+219-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+220                android:value="" />
+220-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+221        </activity>
+222        <activity
+222-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:198:9-212:20
+223            android:name="com.example.mediassist.MainActivity"
+223-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:199:13-41
+224            android:exported="true"
+224-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:200:13-36
+225            android:label="@string/app_name"
+225-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:201:13-45
+226            android:theme="@style/Theme.MediAssist.NoActionBar" >
+226-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:202:13-64
+227            <intent-filter>
+227-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:203:13-207:29
+228                <action android:name="android.intent.action.MAIN" />
+228-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:204:17-69
+228-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:204:25-66
+229
+230                <category android:name="android.intent.category.LAUNCHER" />
+230-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:206:17-77
+230-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:206:27-74
+231            </intent-filter>
+232
+233            <meta-data
+233-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+234                android:name="android.app.lib_name"
+234-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+235                android:value="" />
+235-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+236        </activity>
+237        <activity
+237-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:213:9-221:20
+238            android:name="com.example.mediassist.clinic.ClinicActivity"
+238-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:214:13-50
+239            android:exported="false"
+239-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:215:13-37
+240            android:label="@string/title_activity_clinic"
+240-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:216:13-58
+241            android:theme="@style/Theme.MediAssist.NoActionBar" >
+241-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:217:13-64
+242            <meta-data
+242-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+243                android:name="android.app.lib_name"
+243-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+244                android:value="" />
+244-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+245        </activity>
+246        <activity
+246-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:222:9-229:20
+247            android:name="com.example.mediassist.signup.RegisterActivity"
+247-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:223:13-52
+248            android:exported="false"
+248-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:224:13-37
+249            android:theme="@style/Theme.MediAssist.NoActionBar" >
+249-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:225:13-64
+250            <meta-data
+250-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:27:13-29:36
+251                android:name="android.app.lib_name"
+251-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:28:17-52
+252                android:value="" />
+252-->D:\UTA Notes\Sem2\CSE 5324 SE1 Mike\Project\CSE5324Project-manasa\app\src\main\AndroidManifest.xml:29:17-33
+253        </activity>
+254        <activity
+254-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:15:9-21:20
+255            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+255-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:16:13-91
+256            android:exported="false"
+256-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:17:13-37
+257            android:label="@string/places_autocomplete_label"
+257-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:18:13-62
+258            android:theme="@style/PlacesAutocompleteOverlay"
+258-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:19:13-61
+259            android:windowSoftInputMode="adjustResize" >
+259-->[com.google.android.libraries.places:places:2.7.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\09f14ff4d33414d6a48317f91ccf5ba3\transformed\places-2.7.0\AndroidManifest.xml:20:13-55
+260        </activity>
+261
+262        <service
+262-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:16:9-22:19
+263            android:name="com.google.firebase.components.ComponentDiscoveryService"
+263-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:17:13-84
+264            android:directBootAware="true"
+264-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+265            android:exported="false" >
+265-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:18:13-37
+266            <meta-data
+266-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
+267                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+267-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\675431c9d1f34c1177b8e7e8cd5f3386\transformed\firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\802044bf6455f412af7a8d2027c59c8b\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+270                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+270-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\802044bf6455f412af7a8d2027c59c8b\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-database:20.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\802044bf6455f412af7a8d2027c59c8b\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+272            <meta-data
+272-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+273                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+273-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+274                android:value="com.google.firebase.components.ComponentRegistrar" />
+274-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+275            <meta-data
+275-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+276                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+276-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+277                android:value="com.google.firebase.components.ComponentRegistrar" />
+277-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\009b7d12bc6043f22bf7aa6881a3ca54\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+278            <meta-data
+278-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2bd4b07a485ee83d535408414d8e5dde\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+279                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+279-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2bd4b07a485ee83d535408414d8e5dde\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+280                android:value="com.google.firebase.components.ComponentRegistrar" />
+280-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2bd4b07a485ee83d535408414d8e5dde\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+281        </service>
+282
+283        <activity
+283-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+284            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+284-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+285            android:excludeFromRecents="true"
+285-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+286            android:exported="true"
+286-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+287            android:launchMode="singleTask"
+287-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+288            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+288-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+289            <intent-filter>
+289-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+290                <action android:name="android.intent.action.VIEW" />
+290-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+290-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+292-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+293                <category android:name="android.intent.category.BROWSABLE" />
+293-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+293-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+294
+295                <data
+295-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+296                    android:host="firebase.auth"
+296-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+297                    android:path="/"
+297-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+298                    android:scheme="genericidp" />
+298-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+299            </intent-filter>
+300        </activity>
+301        <activity
+301-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+302            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+302-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+303            android:excludeFromRecents="true"
+303-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+304            android:exported="true"
+304-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+305            android:launchMode="singleTask"
+305-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+306            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+306-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+307            <intent-filter>
+307-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+308                <action android:name="android.intent.action.VIEW" />
+308-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+308-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+309
+310                <category android:name="android.intent.category.DEFAULT" />
+310-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+310-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+311                <category android:name="android.intent.category.BROWSABLE" />
+311-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+311-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+312
+313                <data
+313-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+314                    android:host="firebase.auth"
+314-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+315                    android:path="/"
+315-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+316                    android:scheme="recaptcha" />
+316-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\a0813034fd662e388f39868da2166e2e\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+317            </intent-filter>
+318        </activity> <!-- Needs to be explicitly declared on P+ -->
+319        <uses-library
+319-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+320            android:name="org.apache.http.legacy"
+320-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+321            android:required="false" />
+321-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\c810a7fa5da0076e425e66817ea5396a\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+322
+323        <provider
+323-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+324            android:name="com.google.firebase.provider.FirebaseInitProvider"
+324-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+325            android:authorities="com.example.mediassist.firebaseinitprovider"
+325-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+326            android:directBootAware="true"
+326-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+327            android:exported="false"
+327-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+328            android:initOrder="100" />
+328-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\480b3dae7120d0220412229c8f9a6223\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+329
+330        <activity
+330-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\b2031d7b2c984b1dbe60cd9487e81a5b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+331            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+331-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\b2031d7b2c984b1dbe60cd9487e81a5b\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+332            android:exported="false"
+332-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\b2031d7b2c984b1dbe60cd9487e81a5b\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+333            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+333-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\b2031d7b2c984b1dbe60cd9487e81a5b\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+334
+335        <receiver
+335-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+336            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+336-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+337            android:enabled="true"
+337-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+338            android:exported="false" >
+338-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+339        </receiver>
+340
+341        <service
+341-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+342            android:name="com.google.android.gms.measurement.AppMeasurementService"
+342-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+343            android:enabled="true"
+343-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+344            android:exported="false" />
+344-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+345        <service
+345-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+346            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+346-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+347            android:enabled="true"
+347-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+348            android:exported="false"
+348-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+349            android:permission="android.permission.BIND_JOB_SERVICE" />
+349-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\850228bafd88a158c87c2f70f2d17e0e\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+350
+351        <meta-data
+351-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\0ccd676f36a88f843cf47f86b0f66e38\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+352            android:name="com.google.android.gms.version"
+352-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\0ccd676f36a88f843cf47f86b0f66e38\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+353            android:value="@integer/google_play_services_version" />
+353-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\0ccd676f36a88f843cf47f86b0f66e38\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+354
+355        <provider
+355-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+356            android:name="androidx.startup.InitializationProvider"
+356-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+357            android:authorities="com.example.mediassist.androidx-startup"
+357-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+358            android:exported="false" >
+358-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+359            <meta-data
+359-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+360                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+360-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+361                android:value="androidx.startup" />
+361-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+362            <meta-data
+362-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+363                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+363-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+364                android:value="androidx.startup" />
+364-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+365            <meta-data
+365-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:31:13-33:52
+366                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+366-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:32:17-85
+367                android:value="androidx.startup" />
+367-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:33:17-49
+368        </provider>
+369
+370        <uses-library
+370-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+371            android:name="androidx.window.extensions"
+371-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+372            android:required="false" />
+372-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+373        <uses-library
+373-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+374            android:name="androidx.window.sidecar"
+374-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+375            android:required="false" />
+375-->[androidx.window:window:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\019225cbe2d8874f6a934004f38d130c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+376
+377        <service
+377-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+378            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+378-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+379            android:exported="false" >
+379-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+380            <meta-data
+380-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+381                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+381-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+382                android:value="cct" />
+382-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\30db8d76b6875f968c0a03d005ad5a31\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+383        </service>
+384        <service
+384-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+385            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+385-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+386            android:exported="false"
+386-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+387            android:permission="android.permission.BIND_JOB_SERVICE" >
+387-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+388        </service>
+389
+390        <receiver
+390-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+391            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+391-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+392            android:exported="false" />
+392-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\ae9edb36c50dbc281ed55a986c5ab6d9\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+393        <receiver
+393-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:36:9-45:20
+394            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+394-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:37:13-76
+395            android:directBootAware="false"
+395-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:38:13-44
+396            android:enabled="true"
+396-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:39:13-35
+397            android:exported="true"
+397-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:40:13-36
+398            android:permission="android.permission.DUMP" >
+398-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:41:13-57
+399            <intent-filter>
+399-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:42:13-44:29
+400                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+400-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:43:17-91
+400-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\ArchiTheDeveloper\.gradle\caches\transforms-3\6226e3c256cb9521d077c6798aac0a1a\transformed\profileinstaller-1.0.0\AndroidManifest.xml:43:25-88
+401            </intent-filter>
+402        </receiver>
+403    </application>
+404
+405</manifest>
